@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    font-family: 'Inter-VariableFont_slnt,wght';
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#social-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700; 
+    margin-bottom: -10px;
+}
+h5{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.profile-content{
+    max-width: 360px;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+img{
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+.social p{
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.social p:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
